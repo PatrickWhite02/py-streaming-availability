@@ -1,11 +1,13 @@
 # streaming-availability
 
 A Python client for the [Streaming Availability API](https://docs.movieofthenight.com)
-(movieofthenight.com) — look up streaming availability for movies and series
+(movieofthenight.com)
+
+look up streaming availability for movies and series
 across Netflix, Disney+, Apple TV, Max, Hulu and more, in 66 countries.
 
-- **Sync by default**, built on [`requests`](https://requests.readthedocs.io/) — zero extra setup.
-- **Optional async support**, built on [`httpx`](https://www.python-httpx.org/) — install the `async` extra if you want it.
+- **Sync by default**, built on [`requests`](https://requests.readthedocs.io/): zero extra setup.
+- **Optional async support**, built on [`httpx`](https://www.python-httpx.org/): install the `async` extra if you want it.
 - Typed response models (`Show`, `Country`, `Genre`, `Change`, ...) with `.raw` always available as an escape hatch.
 - One place (`StreamingAvailabilityError` and subclasses) to catch API errors.
 
