@@ -115,7 +115,7 @@ while result.has_more:
 String-valued parameters (`show_type`, `change_type`, `item_type`,
 `order_direction`, etc.) accept either a plain string (e.g. `"movie"`) or
 the corresponding enum from `streaming_availability.enums`
-(e.g. `ShowType.MOVIE`) — whichever you prefer:
+(e.g. `ShowType.MOVIE`), whichever you prefer:
 
 ```python
 from streaming_availability import ShowType
