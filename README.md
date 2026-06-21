@@ -69,8 +69,8 @@ async def main():
 asyncio.run(main())
 ```
 
-The async client mirrors the sync client method-for-method — same names,
-same arguments, same return types — so you can mix it into an existing
+The async client mirrors the sync client method-for-method: same names,
+same arguments, same return types, so you can mix it into an existing
 `asyncio`/`httpx`-based project alongside your other API clients without
 the sync client ever blocking your event loop. If you try to use
 `AsyncStreamingAvailabilityClient` without `httpx` installed, you'll get a
